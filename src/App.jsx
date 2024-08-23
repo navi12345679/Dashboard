@@ -1,6 +1,6 @@
 import React from 'react';
-import Dashboard from './components/Dashboard';
-import Search from './components/Search';
+import Dashboard from './Components/Dashboard';
+import Search from './Components/Search';
 
 const App = () => {
   return (
