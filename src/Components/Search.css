@@ -1,0 +1,24 @@
+/* Search.css */
+
+.search-container {
+    margin-bottom: 20px;
+  }
+  
+  .search-container input[type="text"] {
+    margin-bottom: 10px;
+    width: 600px;
+  }
+  
+  .search-container ul {
+    padding: 0;
+  }
+  
+  .search-container li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 800px;
+  }
+  

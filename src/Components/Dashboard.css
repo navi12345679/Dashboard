@@ -1,0 +1,103 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    padding: 20px 200px;
+    display: grid;
+    gap: 30px; /* Space between grid items */
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); /* Responsive grid columns */
+  }
+  .logo{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .logo img{
+ width: 120px; 
+  height: 100px;
+  border-radius: 20px;
+  }
+  
+  .add-widget-form{
+     padding-left: 100px;
+  }
+  .add-widget-form input,
+  .add-widget-form select {
+    display: block;
+    width: 100%;
+  }
+  
+  .add-widget-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+  
+  .add-widget-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .category {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    gap:20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive widget grid */
+  }
+  
+  .category h2 {
+    margin-bottom: 10px;
+  }
+  
+  .category .widget {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fafafa;
+    position: relative;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: auto 1fr auto; /* Adjust layout for widget content */
+  }
+  
+  .category .widget h3 {
+    margin: 0;
+  }
+  
+  .category .widget p {
+    margin: 0;
+  }
+  
+  .category .widget-placeholder {
+    display: block;
+    margin-top:  5px ;
+    width: 100%;
+    height: auto;
+  }
+  .widget-placeholder img{
+    margin: 14px;
+    height: 200px;
+    width:  220px;
+  }
+  
+  .category .widget button {
+    
+    right: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    width:  200px;
+  }
+  
+  .category .widget button:hover {
+    background-color: #c82333;
+  }
+  
